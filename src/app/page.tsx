@@ -1,10 +1,8 @@
-import { AppSidebar } from "@/components/app-sidebar"
-import { SidebarProvider } from "@/components/ui/sidebar"
+"use client"
 
 export default function Page() {
+
   return (
-    <SidebarProvider>
-      <AppSidebar />
-    </SidebarProvider>
+    <div>hey</div>
   )
 }
